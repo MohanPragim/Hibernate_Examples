@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.pragim.firstappusinghibernate.entity.Person"
+		table="Person">
+		<id name="sno" column="Sno" length="10" />
+		<property name="name" column="PName" length="30" />
+		<property name="adrr" column="Adrr" length="30" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.pragim.hibernatecore.entity.Person"
+		table="person">
+		<id name="sno" />
+		<property name="pName" />
+		<property name="adrr" />
+	</class>
+</hibernate-mapping>
